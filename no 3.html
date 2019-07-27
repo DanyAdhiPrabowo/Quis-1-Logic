@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+	<script>
+	var total = 5
+	var text = "";
+
+	for (kolom = total; kolom >= 1; kolom--) {
+	    for (kos = 1; kos <= kolom; kos++) {
+	    	text += " ";
+	     }
+	    for(bin=total; bin>=kolom; bin--){
+	     	text += "*";
+	    }
+		     
+	  text+="\n";
+	}
+	console.log(text);
+	</script>
+</body>
+</html>
